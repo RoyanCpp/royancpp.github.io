@@ -1,3 +1,3 @@
 # ABCDEFG
 
-> [Welcome] (/Readme.md)
+> [Welcome](/Readme.md)
