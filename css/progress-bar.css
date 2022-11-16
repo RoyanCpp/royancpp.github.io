@@ -1,0 +1,197 @@
+.indeterminate-progress-bar {
+    /* Color */
+    background-color: #d1d5db;
+
+    /* Rounded border */
+    border-radius: 9999px;
+
+    /* Size */
+    height: 0.5rem;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.indeterminate-progress-bar__progress {
+    /* Color */
+    background-color: #3b82f6;
+
+    /* Rounded border */
+    border-radius: 9999px;
+
+    /* Absolute position */
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 50%;
+
+    /* Move the bar infinitely */
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: indeterminate-progress-bar;
+}
+
+@keyframes indeterminate-progress-bar {
+    from {
+        left: -50%;
+    }
+    to {
+        left: 100%;
+    }
+}
+.tab {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tab__item {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.tab__item--active {
+    /* Border */
+    border: 1px solid #d1d5db;
+    /* Hide the bottom border */
+    border-bottom-color: transparent;
+
+    /* Border radius */
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.tab__item--inactive {
+    /* Has only the bottom border */
+    border-bottom: 1px solid #d1d5db;
+}
+.status-light {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+}
+
+.status-light__status {
+    /* Background color */
+    background-color: #16a34a;
+
+    /* Rounded border */
+    border-radius: 9999px;
+
+    /* Size */
+    height: 0.5rem;
+    width: 0.5rem;
+
+    /* Spacing */
+    margin-right: 0.5rem;
+}
+
+.status-light__content {
+    /* Take available width */
+    flex: 1;
+}
+.sidebar {
+    display: flex;
+}
+
+.sidebar__sidebar {
+    width: 30%;
+}
+
+.sidebar__main {
+    /* Take the remaining width */
+    flex: 1;
+
+    /* Make it scrollable */
+    overflow: auto;
+}
+.holy-grail {
+    display: flex;
+    flex-direction: column;
+}
+
+.holy-grail__main {
+    /* Take the remaining height */
+    flex-grow: 1;
+
+    /* Layout the left sidebar, main content and right sidebar */
+    display: flex;
+    flex-direction: row;
+}
+
+.holy-grail__left {
+    width: 25%;
+}
+
+.holy-grail__middle {
+    /* Take the remaining width */
+    flex-grow: 1;
+}
+
+.holy-grail__right {
+    width: 20%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root {
+  font-size: 15px;
+}
+.slider {
+    /* Content is centered horizontally */
+    align-items: center;
+    display: flex;
+
+    /* Size */
+    height: 2rem;
+}
+
+.slider__left {
+    height: 2px;
+
+    /* Colors */
+    background-color: #d1d5db;
+}
+
+.slider__circle {
+    /* Size */
+    height: 2rem;
+    width: 2rem;
+
+    /* Rounded border */
+    border-radius: 9999px;
+
+    /* Colors */
+    background-color: #3b82f6;
+}
+
+.slider__right {
+    /* Take the remaining width */
+    flex: 1;
+    height: 2px;
+
+    /* Colors */
+    background-color: #d1d5db;
+}
+.spinner {
+    /* Size */
+    height: 4rem;
+    width: 4rem;
+
+    /* Create a curve at the top */
+    border: 4px solid #d1d5db;
+    border-top-color: #3b82f6;
+    border-radius: 50%;
+
+    animation: spinner 800ms linear infinite;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
