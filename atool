@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ATool.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="SynEdit HTML exporter" />
+<style type="text/css">
+<!--
+body { color: #DCDCAA; background-color: #1E1E1E; }
+.cpp1-assembler { color: #FF00FF; }
+.cpp1-character { color: #D69D85; }
+.cpp1-class { color: #4EC9B0; }
+.cpp1-comment { color: #6A9955; }
+.cpp1-escapesequences { color: #B5CEA8; }
+.cpp1-float { color: #B5CEA8; }
+.cpp1-function { color: #BFBFFF; }
+.cpp1-globalvariable { color: #E2C8B8; }
+.cpp1-hexadecimal { color: #B5CEA8; }
+.cpp1-identifier { color: #DCDCAA; }
+.cpp1-illegalchar { color: #FF3C3C; }
+.cpp1-localvariable { color: #9CDCFE; }
+.cpp1-number { color: #B5CEA8; }
+.cpp1-octal { color: #B5CEA8; }
+.cpp1-preprocessor { color: #C586C0; }
+.cpp1-reservedword { color: #569CD6; }
+.cpp1-space { background-color: #1E1E1E; color: #1E1E1E; }
+.cpp1-string { color: #D69D85; }
+.cpp1-symbol { color: #D4D4D4; }
+.cpp1-variable { color: #9CDCFE; }
+-->
+</style>
+</head>
+<body>
+<pre>
+<code><span style="font: 19pt Consolas;"><span class="cpp1-preprocessor">#include&lt;iostream&gt;
+#include&lt;string&gt;
+
+</span><span class="cpp1-reservedword">using</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">namespace</span><span class="cpp1-space"> </span><span class="cpp1-identifier">std</span><span class="cpp1-symbol">;
+
+</span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> </span><span class="cpp1-identifier">third_party_recovery_menu</span><span class="cpp1-symbol">();
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> </span><span class="cpp1-identifier">sagit_recovery</span><span class="cpp1-symbol">();
+
+
+</span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> </span><span class="cpp1-identifier">starter</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot; ________      _________    ________      ________      ___          &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;|\   __  \    |\___   ___\ |\   __  \    |\   __  \    |\  \         &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;\ \  \|\  \   \|___ \  \_| \ \  \|\  \   \ \  \|\  \   \ \  \        &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot; \ \   __  \       \ \  \   \ \  </span><span class="cpp1-escapesequences">\\</span><span class="cpp1-string">\  \   \ \  </span><span class="cpp1-escapesequences">\\</span><span class="cpp1-string">\  \   \ \  \       &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;  \ \  \ \  \       \ \  \   \ \  </span><span class="cpp1-escapesequences">\\</span><span class="cpp1-string">\  \   \ \  </span><span class="cpp1-escapesequences">\\</span><span class="cpp1-string">\  \   \ \  \____  &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;   \ \__\ \__\       \ \__\   \ \_______\   \ \_______\   \ \_______\ &quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;    \|__|\|__|        \|__|    \|_______|    \|_______|    \|_______|&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;欢迎使用Android Tools&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;pdd店：(暂无) Bilibili:Royan&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;加载中.&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">for</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> </span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">=</span><span class="cpp1-number">0</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">&lt;</span><span class="cpp1-number">20</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">++)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;.&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">_sleep</span><span class="cpp1-symbol">(</span><span class="cpp1-number">100</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+}
+</span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;cls&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-comment">//cls
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;--------------------------&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;|      ATool工具箱       |&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;|------------------------|&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;| 〔刷机〕               |&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;| 1.第三方Rec            |&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;| 2.刷入卡刷包(.zip)     |&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;| 3.刷入线刷包(目录)     |&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;| 4.刷入镜像(.img/.bin)  |&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;|------------------------|&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;| 〔安装〕               |&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;| 5.安装软件(.apk)       |&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;| 6.导入/导出文件        |&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;|------------------------|&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	
+
+</span><span class="cpp1-symbol">}
+
+</span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> </span><span class="cpp1-identifier">third_party_recovery_menu</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;cls&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;--------------------------&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;|      刷入第三方Rec     |&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;|------------------------|&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">   	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot; 预设Rec镜像："</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">   	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot; (1)Mi 6 (sagit)&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">   	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot; (2)Mix 2 (chiron)&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">   	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot; (3)Mix 2s (polaris)&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">   	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot; (4)Mi 8 (dipper)&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">   	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot; (5)Mix 3 (perseus)&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">   	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot; (6)关于其他机型：请登录www.twrp.me下载设备rec镜像并使用选项7刷入&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">   	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot; (7)自选镜像img文件&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">   	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;  请选择设备：__</span><span class="cpp1-escapesequences">\b</span><span class="cpp1-string"></span><span class="cpp1-escapesequences">\b</span><span class="cpp1-string">&quot;</span><span class="cpp1-symbol">;
+}
+
+</span><span class="cpp1-reservedword">bool</span><span class="cpp1-space"> </span><span class="cpp1-identifier">download</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">url</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">savedir</span><span class="cpp1-symbol">)
+{
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">download_link</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;aria2c -o &quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">+</span><span class="cpp1-space"> </span><span class="cpp1-identifier">savedir</span><span class="cpp1-space"> </span><span class="cpp1-symbol">+</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot; -s 2 -x 2 --timeout=20 &quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">+</span><span class="cpp1-space"> </span><span class="cpp1-identifier">url</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">const</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">char</span><span class="cpp1-space"> </span><span class="cpp1-symbol">*</span><span class="cpp1-space"> </span><span class="cpp1-identifier">downloadlink</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-identifier">download_link</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">c_str</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">downloadlink</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> </span><span class="cpp1-symbol">==</span><span class="cpp1-space"> </span><span class="cpp1-number">0</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">return</span><span class="cpp1-space"> </span><span class="cpp1-number">0</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">else
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">return</span><span class="cpp1-space"> </span><span class="cpp1-number">1</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+}</span><span class="cpp1-space"> 
+
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flash_recovery_by_down</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">device_name</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">code_name</span><span class="cpp1-symbol">)
+{
+</span><span class="cpp1-space">   	</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;你选择了"</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">device_name</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;(&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">code_name</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;)&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">   	</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;正在下载镜像......&quot;</span><span class="cpp1-symbol">;</span><span class="cpp1-space">	
+	</span><span class="cpp1-comment">//下载镜像 并检测 
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">bool</span><span class="cpp1-space"> </span><span class="cpp1-identifier">downstatic</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-identifier">download</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;https://getroyan.top/atool/&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">code_name</span><span class="cpp1-symbol">+</span><span class="cpp1-string">&quot;.img&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;./bin/rec_&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">code_name</span><span class="cpp1-symbol">+</span><span class="cpp1-string">&quot;.img&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">downstatic</span><span class="cpp1-space"> </span><span class="cpp1-symbol">==</span><span class="cpp1-space"> </span><span class="cpp1-number">1</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;下载出错了，请检查网络情况或联系开发者QQ:3329932408&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-comment">//goto l1;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">downstatic</span><span class="cpp1-space"> </span><span class="cpp1-symbol">==</span><span class="cpp1-space"> </span><span class="cpp1-number">0</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;下载完成，请在设备关机状态下长按电源与音量+键并插入设备&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	
+	
+	</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flashcommand</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;/bin/fastboot.exe flash recovery ./bin/rec_&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">+</span><span class="cpp1-space"> </span><span class="cpp1-identifier">code_name</span><span class="cpp1-space"> </span><span class="cpp1-symbol">+</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;.img&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">const</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">char</span><span class="cpp1-space"> </span><span class="cpp1-symbol">*</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flashcomm</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flashcommand</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">c_str</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">bool</span><span class="cpp1-space"> </span><span class="cpp1-identifier">stati</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">flashcomm</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">stati</span><span class="cpp1-space"> </span><span class="cpp1-symbol">==</span><span class="cpp1-space"> </span><span class="cpp1-number">0</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;完成！请检查设备情况"</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">stati</span><span class="cpp1-space"> </span><span class="cpp1-symbol">==</span><span class="cpp1-space"> </span><span class="cpp1-number">1</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;似乎出错了，请检查设备连接情况并重新尝试&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;pause&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	
+</span><span class="cpp1-symbol">}
+
+
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flash_zip_from_file</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;请确认已刷入第三方Recovery&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;pause&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">ways</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;请拖动卡刷包至窗口或输入路径&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cin</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">ways</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flashcommand</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;/bin/adb.exe shell twrp flash &quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">ways</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">const</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">char</span><span class="cpp1-space"> </span><span class="cpp1-symbol">*</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flashcomm</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flashcommand</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">c_str</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">flashcomm</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">flashcomm</span><span class="cpp1-symbol">)==</span><span class="cpp1-number">1</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;出错了，请检查设备连接情况,&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;pause&quot;</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> </span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">else
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;完成！"</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;pause&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+}
+
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flash_fastboot_from_file</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;请将设备进入fastboot模式并插入电脑"</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;pause&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">ways</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;请将线刷包文件夹拖动至窗口或输入路径&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cin</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">ways</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flashcommand</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-identifier">ways</span><span class="cpp1-symbol">+</span><span class="cpp1-string">&quot;/flash_all.bat&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">const</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">char</span><span class="cpp1-space"> </span><span class="cpp1-symbol">*</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flashcomm</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flashcommand</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">c_str</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">flashcomm</span><span class="cpp1-symbol">)==</span><span class="cpp1-number">1</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;出错了，请检查设备连接情况,&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;pause&quot;</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> </span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">else
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;完成！"</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;pause&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+}
+
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flash_img_from_file</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;请输入文件路径或直接将img/bin文件拖动至窗口"</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">imgfile</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cin</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">imgfile</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flashcommand</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;fastboot.exe flash recovery &quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">+</span><span class="cpp1-space"> </span><span class="cpp1-identifier">imgfile</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">const</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">char</span><span class="cpp1-space"> </span><span class="cpp1-symbol">*</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flashcomm</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-identifier">flashcommand</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">c_str</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">bool</span><span class="cpp1-space"> </span><span class="cpp1-identifier">stati</span><span class="cpp1-space"> </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">flashcomm</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">if</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">stati</span><span class="cpp1-symbol">==</span><span class="cpp1-number">1</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;似乎出错了，请检查设备连接情况并重新尝试&quot;</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">stati</span><span class="cpp1-space"> </span><span class="cpp1-symbol">==</span><span class="cpp1-space"> </span><span class="cpp1-number">1</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;完成！请检查设备情况"</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-identifier">endl</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+}
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> </span><span class="cpp1-identifier">main</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">starter</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">	</span><span class="cpp1-comment">//菜单跳转
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">choose</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot; 请输入序号：__</span><span class="cpp1-escapesequences">\b</span><span class="cpp1-string"></span><span class="cpp1-escapesequences">\b</span><span class="cpp1-string">&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-identifier">cin</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">choose</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">if</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">choose</span><span class="cpp1-space"> </span><span class="cpp1-symbol">==</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;1&quot;</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">third_party_recovery_menu</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">string</span><span class="cpp1-space"> </span><span class="cpp1-identifier">devic</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cin</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&gt;&gt;</span><span class="cpp1-space"> </span><span class="cpp1-identifier">devic</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">devic</span><span class="cpp1-symbol">==</span><span class="cpp1-string">&quot;1&quot;</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">			</span><span class="cpp1-identifier">flash_recovery_by_down</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Mi 6&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;sagit&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">			</span><span class="cpp1-reservedword">goto</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">devic</span><span class="cpp1-symbol">==</span><span class="cpp1-string">&quot;2&quot;</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">			</span><span class="cpp1-identifier">flash_recovery_by_down</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Mix 2&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;chiron&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">			</span><span class="cpp1-reservedword">goto</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">devic</span><span class="cpp1-symbol">==</span><span class="cpp1-string">&quot;3&quot;</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">			</span><span class="cpp1-identifier">flash_recovery_by_down</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Mix 2s&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;polaris&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">			</span><span class="cpp1-reservedword">goto</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">devic</span><span class="cpp1-symbol">==</span><span class="cpp1-string">&quot;4&quot;</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">			</span><span class="cpp1-identifier">flash_recovery_by_down</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Mi 8&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;dipper&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">			</span><span class="cpp1-reservedword">goto</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">devic</span><span class="cpp1-symbol">==</span><span class="cpp1-string">&quot;5&quot;</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">			</span><span class="cpp1-identifier">flash_recovery_by_down</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Mix 3&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;perseus&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">			</span><span class="cpp1-reservedword">goto</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">devic</span><span class="cpp1-symbol">==</span><span class="cpp1-string">&quot;6&quot;</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">			</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;start http://twrp.me/Devices/&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">			</span><span class="cpp1-reservedword">goto</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">devic</span><span class="cpp1-symbol">==</span><span class="cpp1-string">&quot;7&quot;</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">			</span><span class="cpp1-identifier">flash_img_from_file</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">			</span><span class="cpp1-reservedword">goto</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">else
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">			</span><span class="cpp1-identifier">cout</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-space"> </span><span class="cpp1-string">&quot;输入错误，"</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">			</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;pause&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">			</span><span class="cpp1-reservedword">goto</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">choose</span><span class="cpp1-symbol">==</span><span class="cpp1-string">&quot;2&quot;</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">flash_zip_from_file</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">goto</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">choose</span><span class="cpp1-symbol">==</span><span class="cpp1-string">&quot;3&quot;</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">flash_fastboot_from_file</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">goto</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">choose</span><span class="cpp1-symbol">==</span><span class="cpp1-string">&quot;4&quot;</span><span class="cpp1-symbol">)
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">flash_img_from_file</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">goto</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+</span><span class="cpp1-space">	</span><span class="cpp1-reservedword">else
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">cout</span><span class="cpp1-symbol">&lt;&lt;</span><span class="cpp1-string">&quot;输入错误，"</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-identifier">system</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;pause&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">goto</span><span class="cpp1-space"> </span><span class="cpp1-identifier">menu</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+}
+</span></span>
+</code></pre>
+</body>
+</html>
